@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Prediction Result</h2>
+<table>
+  <tr>
+    <th>Predicted Type</th>
+    <th>Probability</th>
+    <th>Propbabilities</th>
+  </tr>
+  <tr>
+    <td>{{predicted}}</td>
+    <td>{{probability}}</td>
+    <td>{{probabilities}}</td>
+  </tr>
+</table>
+{% endblock %}
